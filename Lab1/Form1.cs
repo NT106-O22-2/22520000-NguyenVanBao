@@ -9,9 +9,10 @@ namespace Lab1
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			string fullname = tbFullname.Text;
-			// lab 1
-			MessageBox.Show(string.Format("Chao mung ban {0}", fullname));
+			int soThuNhat = int.Parse(tbSoThuNhat.Text);
+			int soThuHai = int.Parse(tbSoThuHai.Text);
+
+			tbKetQua.Text = (soThuNhat + soThuHai).ToString();
 		}
 	}
 }

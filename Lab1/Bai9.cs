@@ -27,5 +27,10 @@ namespace Lab1
 		{
 			var danhSachMonAn = listView1.Items;
 		}
+
+		private void label1_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show(textBox2.Text);
+		}
 	}
 }

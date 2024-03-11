@@ -49,6 +49,7 @@
 			checkBox14 = new CheckBox();
 			checkBox15 = new CheckBox();
 			button1 = new Button();
+			label5 = new Label();
 			SuspendLayout();
 			// 
 			// comboBox1
@@ -59,6 +60,7 @@
 			comboBox1.Name = "comboBox1";
 			comboBox1.Size = new Size(121, 23);
 			comboBox1.TabIndex = 0;
+			comboBox1.SelectionChangeCommitted += comboBox1_SelectionChangeCommitted;
 			// 
 			// label1
 			// 
@@ -271,11 +273,21 @@
 			button1.UseVisualStyleBackColor = true;
 			button1.Click += button1_Click;
 			// 
+			// label5
+			// 
+			label5.AutoSize = true;
+			label5.Location = new Point(12, 161);
+			label5.Name = "label5";
+			label5.Size = new Size(38, 15);
+			label5.TabIndex = 5;
+			label5.Text = "label5";
+			// 
 			// Bai5
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(244, 214);
+			Controls.Add(label5);
 			Controls.Add(button1);
 			Controls.Add(label4);
 			Controls.Add(label3);
@@ -299,6 +311,7 @@
 			Controls.Add(comboBox1);
 			Name = "Bai5";
 			Text = "Bai5";
+			Load += Bai5_Load;
 			ResumeLayout(false);
 			PerformLayout();
 		}
@@ -326,5 +339,6 @@
 		private CheckBox checkBox14;
 		private CheckBox checkBox15;
 		private Button button1;
+		private Label label5;
 	}
 }

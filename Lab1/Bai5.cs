@@ -23,8 +23,8 @@ namespace Lab1
 		{
 			InitializeComponent();
 			List<Phim> phims = new List<Phim>();
-			phims.Add(new Phim() { Ten = "Đào, phở và piano", GiaVe = 45000, PhongChieu = [1,2] });
-			phims.Add(new Phim() { Ten = "Mai", GiaVe = 100000, PhongChieu = [1,2,3] });
+			phims.Add(new Phim() { Ten = "Đào, phở và piano", GiaVe = 45000, PhongChieu = [1, 2] });
+			phims.Add(new Phim() { Ten = "Mai", GiaVe = 100000, PhongChieu = [1, 2, 3] });
 			phims.Add(new Phim() { Ten = "Gặp lại chị bầu", GiaVe = 70000, PhongChieu = [2] });
 			phims.Add(new Phim() { Ten = "Tarot", GiaVe = 90000, PhongChieu = [1] });
 
@@ -35,15 +35,26 @@ namespace Lab1
 		private void button1_Click(object sender, EventArgs e)
 		{
 			Phim selectedPhim = comboBox1.SelectedItem as Phim;
-
 			List<CheckBox> checkBoxes = Controls.OfType<CheckBox>().ToList();
-			foreach(CheckBox checkBox in checkBoxes)
+			foreach (CheckBox checkBox in checkBoxes)
 			{
-				if(checkBox.Checked)
+				if (checkBox.Checked)
 				{
 					MessageBox.Show(checkBox.Name);
 				}
 			}
+		}
+
+		private void comboBox1_SelectionChangeCommitted(object sender, EventArgs e)
+		{
+			Phim selectedPhim = comboBox1.SelectedItem as Phim;
+			label5.Text = selectedPhim.Ten + " | Gia Ve: " + selectedPhim.GiaVe.ToString();
+		}
+
+		private void Bai5_Load(object sender, EventArgs e)
+		{
+			Phim selectedPhim = comboBox1.SelectedItem as Phim;
+			label5.Text = selectedPhim.Ten + " | Gia Ve: " + selectedPhim.GiaVe.ToString();
 		}
 	}
 }

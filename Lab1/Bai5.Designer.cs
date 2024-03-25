@@ -30,33 +30,35 @@
 		{
 			comboBox1 = new ComboBox();
 			label1 = new Label();
-			checkBox1 = new CheckBox();
+			A_1 = new CheckBox();
 			label2 = new Label();
-			checkBox2 = new CheckBox();
-			checkBox3 = new CheckBox();
-			checkBox4 = new CheckBox();
-			checkBox5 = new CheckBox();
+			A_2 = new CheckBox();
+			A_3 = new CheckBox();
+			A_4 = new CheckBox();
+			A_5 = new CheckBox();
 			label3 = new Label();
 			label4 = new Label();
-			checkBox6 = new CheckBox();
-			checkBox7 = new CheckBox();
-			checkbox_B3 = new CheckBox();
-			checkBox9 = new CheckBox();
-			checkBox10 = new CheckBox();
-			checkBox11 = new CheckBox();
-			checkBox12 = new CheckBox();
-			checkBox13 = new CheckBox();
-			checkBox14 = new CheckBox();
-			checkBox15 = new CheckBox();
+			B_1 = new CheckBox();
+			B_2 = new CheckBox();
+			B_3 = new CheckBox();
+			B_4 = new CheckBox();
+			B_5 = new CheckBox();
+			C_1 = new CheckBox();
+			C_2 = new CheckBox();
+			C_3 = new CheckBox();
+			C_4 = new CheckBox();
+			C_5 = new CheckBox();
 			button1 = new Button();
 			label5 = new Label();
+			comboBox2 = new ComboBox();
+			label6 = new Label();
 			SuspendLayout();
 			// 
 			// comboBox1
 			// 
 			comboBox1.FormattingEnabled = true;
 			comboBox1.Items.AddRange(new object[] { "Phim A", "Phim B", "Phim C", "Phim D" });
-			comboBox1.Location = new Point(85, 12);
+			comboBox1.Location = new Point(91, 12);
 			comboBox1.Name = "comboBox1";
 			comboBox1.Size = new Size(121, 23);
 			comboBox1.TabIndex = 0;
@@ -71,16 +73,16 @@
 			label1.TabIndex = 1;
 			label1.Text = "Chon Phim";
 			// 
-			// checkBox1
+			// A_1
 			// 
-			checkBox1.AutoSize = true;
-			checkBox1.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox1.Location = new Point(84, 74);
-			checkBox1.Name = "checkBox1";
-			checkBox1.Size = new Size(17, 19);
-			checkBox1.TabIndex = 2;
-			checkBox1.Text = "1";
-			checkBox1.UseVisualStyleBackColor = true;
+			A_1.AutoSize = true;
+			A_1.CheckAlign = ContentAlignment.MiddleCenter;
+			A_1.Location = new Point(84, 74);
+			A_1.Name = "A_1";
+			A_1.Size = new Size(17, 19);
+			A_1.TabIndex = 2;
+			A_1.Text = "1";
+			A_1.UseVisualStyleBackColor = true;
 			// 
 			// label2
 			// 
@@ -91,49 +93,49 @@
 			label2.TabIndex = 3;
 			label2.Text = "A";
 			// 
-			// checkBox2
+			// A_2
 			// 
-			checkBox2.AutoSize = true;
-			checkBox2.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox2.Location = new Point(107, 74);
-			checkBox2.Name = "checkBox2";
-			checkBox2.Size = new Size(17, 19);
-			checkBox2.TabIndex = 2;
-			checkBox2.Text = "2";
-			checkBox2.UseVisualStyleBackColor = true;
+			A_2.AutoSize = true;
+			A_2.CheckAlign = ContentAlignment.MiddleCenter;
+			A_2.Location = new Point(107, 74);
+			A_2.Name = "A_2";
+			A_2.Size = new Size(17, 19);
+			A_2.TabIndex = 2;
+			A_2.Text = "2";
+			A_2.UseVisualStyleBackColor = true;
 			// 
-			// checkBox3
+			// A_3
 			// 
-			checkBox3.AutoSize = true;
-			checkBox3.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox3.Location = new Point(130, 74);
-			checkBox3.Name = "checkBox3";
-			checkBox3.Size = new Size(17, 19);
-			checkBox3.TabIndex = 2;
-			checkBox3.Text = "3";
-			checkBox3.UseVisualStyleBackColor = true;
+			A_3.AutoSize = true;
+			A_3.CheckAlign = ContentAlignment.MiddleCenter;
+			A_3.Location = new Point(130, 74);
+			A_3.Name = "A_3";
+			A_3.Size = new Size(17, 19);
+			A_3.TabIndex = 2;
+			A_3.Text = "3";
+			A_3.UseVisualStyleBackColor = true;
 			// 
-			// checkBox4
+			// A_4
 			// 
-			checkBox4.AutoSize = true;
-			checkBox4.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox4.Location = new Point(153, 74);
-			checkBox4.Name = "checkBox4";
-			checkBox4.Size = new Size(17, 19);
-			checkBox4.TabIndex = 2;
-			checkBox4.Text = "4";
-			checkBox4.UseVisualStyleBackColor = true;
+			A_4.AutoSize = true;
+			A_4.CheckAlign = ContentAlignment.MiddleCenter;
+			A_4.Location = new Point(153, 74);
+			A_4.Name = "A_4";
+			A_4.Size = new Size(17, 19);
+			A_4.TabIndex = 2;
+			A_4.Text = "4";
+			A_4.UseVisualStyleBackColor = true;
 			// 
-			// checkBox5
+			// A_5
 			// 
-			checkBox5.AutoSize = true;
-			checkBox5.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox5.Location = new Point(176, 74);
-			checkBox5.Name = "checkBox5";
-			checkBox5.Size = new Size(17, 19);
-			checkBox5.TabIndex = 2;
-			checkBox5.Text = "5";
-			checkBox5.UseVisualStyleBackColor = true;
+			A_5.AutoSize = true;
+			A_5.CheckAlign = ContentAlignment.MiddleCenter;
+			A_5.Location = new Point(176, 74);
+			A_5.Name = "A_5";
+			A_5.Size = new Size(17, 19);
+			A_5.TabIndex = 2;
+			A_5.Text = "5";
+			A_5.UseVisualStyleBackColor = true;
 			// 
 			// label3
 			// 
@@ -153,115 +155,115 @@
 			label4.TabIndex = 3;
 			label4.Text = "C";
 			// 
-			// checkBox6
+			// B_1
 			// 
-			checkBox6.AutoSize = true;
-			checkBox6.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox6.Location = new Point(84, 96);
-			checkBox6.Name = "checkBox6";
-			checkBox6.Size = new Size(17, 19);
-			checkBox6.TabIndex = 2;
-			checkBox6.Text = "1";
-			checkBox6.UseVisualStyleBackColor = true;
+			B_1.AutoSize = true;
+			B_1.CheckAlign = ContentAlignment.MiddleCenter;
+			B_1.Location = new Point(84, 96);
+			B_1.Name = "B_1";
+			B_1.Size = new Size(17, 19);
+			B_1.TabIndex = 2;
+			B_1.Text = "1";
+			B_1.UseVisualStyleBackColor = true;
 			// 
-			// checkBox7
+			// B_2
 			// 
-			checkBox7.AutoSize = true;
-			checkBox7.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox7.Location = new Point(107, 96);
-			checkBox7.Name = "checkBox7";
-			checkBox7.Size = new Size(17, 19);
-			checkBox7.TabIndex = 2;
-			checkBox7.Text = "2";
-			checkBox7.UseVisualStyleBackColor = true;
+			B_2.AutoSize = true;
+			B_2.CheckAlign = ContentAlignment.MiddleCenter;
+			B_2.Location = new Point(107, 96);
+			B_2.Name = "B_2";
+			B_2.Size = new Size(17, 19);
+			B_2.TabIndex = 2;
+			B_2.Text = "2";
+			B_2.UseVisualStyleBackColor = true;
 			// 
-			// checkbox_B3
+			// B_3
 			// 
-			checkbox_B3.AutoSize = true;
-			checkbox_B3.CheckAlign = ContentAlignment.MiddleCenter;
-			checkbox_B3.Location = new Point(130, 96);
-			checkbox_B3.Name = "checkbox_B3";
-			checkbox_B3.Size = new Size(17, 19);
-			checkbox_B3.TabIndex = 2;
-			checkbox_B3.Text = "3";
-			checkbox_B3.UseVisualStyleBackColor = true;
+			B_3.AutoSize = true;
+			B_3.CheckAlign = ContentAlignment.MiddleCenter;
+			B_3.Location = new Point(130, 96);
+			B_3.Name = "B_3";
+			B_3.Size = new Size(17, 19);
+			B_3.TabIndex = 2;
+			B_3.Text = "3";
+			B_3.UseVisualStyleBackColor = true;
 			// 
-			// checkBox9
+			// B_4
 			// 
-			checkBox9.AutoSize = true;
-			checkBox9.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox9.Location = new Point(153, 96);
-			checkBox9.Name = "checkBox9";
-			checkBox9.Size = new Size(17, 19);
-			checkBox9.TabIndex = 2;
-			checkBox9.Text = "4";
-			checkBox9.UseVisualStyleBackColor = true;
+			B_4.AutoSize = true;
+			B_4.CheckAlign = ContentAlignment.MiddleCenter;
+			B_4.Location = new Point(153, 96);
+			B_4.Name = "B_4";
+			B_4.Size = new Size(17, 19);
+			B_4.TabIndex = 2;
+			B_4.Text = "4";
+			B_4.UseVisualStyleBackColor = true;
 			// 
-			// checkBox10
+			// B_5
 			// 
-			checkBox10.AutoSize = true;
-			checkBox10.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox10.Location = new Point(176, 96);
-			checkBox10.Name = "checkBox10";
-			checkBox10.Size = new Size(17, 19);
-			checkBox10.TabIndex = 2;
-			checkBox10.Text = "5";
-			checkBox10.UseVisualStyleBackColor = true;
+			B_5.AutoSize = true;
+			B_5.CheckAlign = ContentAlignment.MiddleCenter;
+			B_5.Location = new Point(176, 96);
+			B_5.Name = "B_5";
+			B_5.Size = new Size(17, 19);
+			B_5.TabIndex = 2;
+			B_5.Text = "5";
+			B_5.UseVisualStyleBackColor = true;
 			// 
-			// checkBox11
+			// C_1
 			// 
-			checkBox11.AutoSize = true;
-			checkBox11.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox11.Location = new Point(84, 121);
-			checkBox11.Name = "checkBox11";
-			checkBox11.Size = new Size(17, 19);
-			checkBox11.TabIndex = 2;
-			checkBox11.Text = "1";
-			checkBox11.UseVisualStyleBackColor = true;
+			C_1.AutoSize = true;
+			C_1.CheckAlign = ContentAlignment.MiddleCenter;
+			C_1.Location = new Point(84, 121);
+			C_1.Name = "C_1";
+			C_1.Size = new Size(17, 19);
+			C_1.TabIndex = 2;
+			C_1.Text = "1";
+			C_1.UseVisualStyleBackColor = true;
 			// 
-			// checkBox12
+			// C_2
 			// 
-			checkBox12.AutoSize = true;
-			checkBox12.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox12.Location = new Point(107, 121);
-			checkBox12.Name = "checkBox12";
-			checkBox12.Size = new Size(17, 19);
-			checkBox12.TabIndex = 2;
-			checkBox12.Text = "2";
-			checkBox12.UseVisualStyleBackColor = true;
+			C_2.AutoSize = true;
+			C_2.CheckAlign = ContentAlignment.MiddleCenter;
+			C_2.Location = new Point(107, 121);
+			C_2.Name = "C_2";
+			C_2.Size = new Size(17, 19);
+			C_2.TabIndex = 2;
+			C_2.Text = "2";
+			C_2.UseVisualStyleBackColor = true;
 			// 
-			// checkBox13
+			// C_3
 			// 
-			checkBox13.AutoSize = true;
-			checkBox13.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox13.Location = new Point(130, 121);
-			checkBox13.Name = "checkBox13";
-			checkBox13.Size = new Size(17, 19);
-			checkBox13.TabIndex = 2;
-			checkBox13.Text = "3";
-			checkBox13.UseVisualStyleBackColor = true;
+			C_3.AutoSize = true;
+			C_3.CheckAlign = ContentAlignment.MiddleCenter;
+			C_3.Location = new Point(130, 121);
+			C_3.Name = "C_3";
+			C_3.Size = new Size(17, 19);
+			C_3.TabIndex = 2;
+			C_3.Text = "3";
+			C_3.UseVisualStyleBackColor = true;
 			// 
-			// checkBox14
+			// C_4
 			// 
-			checkBox14.AutoSize = true;
-			checkBox14.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox14.Location = new Point(153, 121);
-			checkBox14.Name = "checkBox14";
-			checkBox14.Size = new Size(17, 19);
-			checkBox14.TabIndex = 2;
-			checkBox14.Text = "4";
-			checkBox14.UseVisualStyleBackColor = true;
+			C_4.AutoSize = true;
+			C_4.CheckAlign = ContentAlignment.MiddleCenter;
+			C_4.Location = new Point(153, 121);
+			C_4.Name = "C_4";
+			C_4.Size = new Size(17, 19);
+			C_4.TabIndex = 2;
+			C_4.Text = "4";
+			C_4.UseVisualStyleBackColor = true;
 			// 
-			// checkBox15
+			// C_5
 			// 
-			checkBox15.AutoSize = true;
-			checkBox15.CheckAlign = ContentAlignment.MiddleCenter;
-			checkBox15.Location = new Point(176, 121);
-			checkBox15.Name = "checkBox15";
-			checkBox15.Size = new Size(17, 19);
-			checkBox15.TabIndex = 2;
-			checkBox15.Text = "5";
-			checkBox15.UseVisualStyleBackColor = true;
+			C_5.AutoSize = true;
+			C_5.CheckAlign = ContentAlignment.MiddleCenter;
+			C_5.Location = new Point(176, 121);
+			C_5.Name = "C_5";
+			C_5.Size = new Size(17, 19);
+			C_5.TabIndex = 2;
+			C_5.Text = "5";
+			C_5.UseVisualStyleBackColor = true;
 			// 
 			// button1
 			// 
@@ -282,6 +284,25 @@
 			label5.TabIndex = 5;
 			label5.Text = "label5";
 			// 
+			// comboBox2
+			// 
+			comboBox2.FormattingEnabled = true;
+			comboBox2.Items.AddRange(new object[] { "Phim A", "Phim B", "Phim C", "Phim D" });
+			comboBox2.Location = new Point(91, 41);
+			comboBox2.Name = "comboBox2";
+			comboBox2.Size = new Size(121, 23);
+			comboBox2.TabIndex = 0;
+			comboBox2.SelectionChangeCommitted += comboBox1_SelectionChangeCommitted;
+			// 
+			// label6
+			// 
+			label6.AutoSize = true;
+			label6.Location = new Point(11, 49);
+			label6.Name = "label6";
+			label6.Size = new Size(74, 15);
+			label6.TabIndex = 1;
+			label6.Text = "Chon phong";
+			// 
 			// Bai5
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
@@ -292,22 +313,24 @@
 			Controls.Add(label4);
 			Controls.Add(label3);
 			Controls.Add(label2);
-			Controls.Add(checkBox15);
-			Controls.Add(checkBox14);
-			Controls.Add(checkBox10);
-			Controls.Add(checkBox9);
-			Controls.Add(checkBox13);
-			Controls.Add(checkBox5);
-			Controls.Add(checkbox_B3);
-			Controls.Add(checkBox12);
-			Controls.Add(checkBox4);
-			Controls.Add(checkBox7);
-			Controls.Add(checkBox11);
-			Controls.Add(checkBox3);
-			Controls.Add(checkBox6);
-			Controls.Add(checkBox2);
-			Controls.Add(checkBox1);
+			Controls.Add(C_5);
+			Controls.Add(C_4);
+			Controls.Add(B_5);
+			Controls.Add(B_4);
+			Controls.Add(C_3);
+			Controls.Add(A_5);
+			Controls.Add(B_3);
+			Controls.Add(C_2);
+			Controls.Add(A_4);
+			Controls.Add(B_2);
+			Controls.Add(C_1);
+			Controls.Add(A_3);
+			Controls.Add(B_1);
+			Controls.Add(A_2);
+			Controls.Add(A_1);
+			Controls.Add(label6);
 			Controls.Add(label1);
+			Controls.Add(comboBox2);
 			Controls.Add(comboBox1);
 			Name = "Bai5";
 			Text = "Bai5";
@@ -320,25 +343,27 @@
 
 		private ComboBox comboBox1;
 		private Label label1;
-		private CheckBox checkBox1;
+		private CheckBox A_1;
 		private Label label2;
-		private CheckBox checkBox2;
-		private CheckBox checkBox3;
-		private CheckBox checkBox4;
-		private CheckBox checkBox5;
+		private CheckBox A_2;
+		private CheckBox A_3;
+		private CheckBox A_4;
+		private CheckBox A_5;
 		private Label label3;
 		private Label label4;
-		private CheckBox checkBox6;
-		private CheckBox checkBox7;
-		private CheckBox checkbox_B3;
-		private CheckBox checkBox9;
-		private CheckBox checkBox10;
-		private CheckBox checkBox11;
-		private CheckBox checkBox12;
-		private CheckBox checkBox13;
-		private CheckBox checkBox14;
-		private CheckBox checkBox15;
+		private CheckBox B_1;
+		private CheckBox B_2;
+		private CheckBox B_3;
+		private CheckBox B_4;
+		private CheckBox B_5;
+		private CheckBox C_1;
+		private CheckBox C_2;
+		private CheckBox C_3;
+		private CheckBox C_4;
+		private CheckBox C_5;
 		private Button button1;
 		private Label label5;
+		private ComboBox comboBox2;
+		private Label label6;
 	}
 }

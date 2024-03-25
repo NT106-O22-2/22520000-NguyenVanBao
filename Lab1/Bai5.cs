@@ -36,18 +36,40 @@ namespace Lab1
 		{
 			Phim selectedPhim = comboBox1.SelectedItem as Phim;
 			List<CheckBox> checkBoxes = Controls.OfType<CheckBox>().ToList();
+			int tongTien = 0;
+			int giaVe = selectedPhim.GiaVe;
+
 			foreach (CheckBox checkBox in checkBoxes)
 			{
 				if (checkBox.Checked)
 				{
-					MessageBox.Show(checkBox.Name);
+					//MessageBox.Show(checkBox.Name);
+					string hangGhe = checkBox.Name.Split('_')[0];
+					int soGhe = int.Parse(checkBox.Name.Split("_")[1]);
+					
+					if (soGhe == 1 || soGhe == 5)
+					{
+						tongTien += giaVe / 2;
+					} else
+					{
+						if (hangGhe.Equals("B"))
+						{
+							tongTien += giaVe * 2;
+						} else
+						{
+							tongTien += giaVe;
+						}
+					}
 				}
 			}
+
+			MessageBox.Show(string.Format("Tong so tien: {0}", tongTien));
 		}
 
 		private void comboBox1_SelectionChangeCommitted(object sender, EventArgs e)
 		{
 			Phim selectedPhim = comboBox1.SelectedItem as Phim;
+			comboBox2.DataSource = selectedPhim.PhongChieu;
 			label5.Text = selectedPhim.Ten + " | Gia Ve: " + selectedPhim.GiaVe.ToString();
 		}
 

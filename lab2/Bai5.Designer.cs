@@ -287,7 +287,6 @@
 			// comboBox2
 			// 
 			comboBox2.FormattingEnabled = true;
-			comboBox2.Items.AddRange(new object[] { "Phim A", "Phim B", "Phim C", "Phim D" });
 			comboBox2.Location = new Point(91, 41);
 			comboBox2.Name = "comboBox2";
 			comboBox2.Size = new Size(121, 23);

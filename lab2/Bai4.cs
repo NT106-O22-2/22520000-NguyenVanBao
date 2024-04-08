@@ -17,6 +17,22 @@ namespace lab2
 			InitializeComponent();
 		}
 
+		class Student
+		{
+			public string HoTen { get; set; }
+			public string? MSSV { get; set; }
+			public string Phone { get; set; }
+			public float Mon1 { get; set; }
+			public float Mon2 { get; set; }
+			public float Mon3 { get; set; }
+			public string ToString()
+			{
+				return string.Format("{0},{1},{2},{3},{4},{5}", HoTen, MSSV, Phone, Mon1, Mon2, Mon3);
+			}
+		}
+
+		List<Student> students = new List<Student>();
+
 		private void button1_Click(object sender, EventArgs e)
 		{
 			string hoTen = tbHoTen.Text;
@@ -24,8 +40,16 @@ namespace lab2
 			string mon1 = tbMon1.Text;
 			string mon2 = tbMon2.Text;
 			string mon3 = tbMon3.Text;
+			Student student = new Student
+			{
+				HoTen = hoTen,
+				Phone = sdt,
+				Mon1 = float.Parse(mon1),
+				Mon2 = float.Parse(mon2),
+				Mon3 = float.Parse(mon3),
+			};
 
-			richTextBox1.Text += string.Format("{0},{1},{2},{3},{4}", hoTen, sdt, mon1, mon2, mon3) + Environment.NewLine;
+			richTextBox1.Text += student.ToString();
 
 		}
 
